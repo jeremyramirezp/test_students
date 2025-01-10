@@ -19,7 +19,7 @@ return new class extends Migration
             $table->string('email')->unique();
             $table->string('phone', 9);
             $table->date('birth_date');
-            $table->date('enrollment_date')->default(DB::raw('CURRENT_DATE'));
+            $table->date('enrollment_date');
             $table->enum('status', ['Activo', 'Inactivo'])->default('Activo');
             $table->timestamps();
         });

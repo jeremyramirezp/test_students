@@ -1,3 +1,6 @@
+# Clonar repositorio
+git clone https://github.com/tu-usuario/tu-proyecto.git
+
 # Proyecto Laravel 11 
 - api para la gestión de estudiantes
 
@@ -20,9 +23,8 @@ se agrego una respuesta definida para todos los metodos y se envio los stados co
 
 ## Instalación
 Sigue estos pasos para levantar el proyecto en tu máquina local: 
-### 1. Clonar el Repositorio
-- git clone https://github.com/tu-usuario/tu-proyecto.git
-- cd tu-proyecto
+### 1. Aceder al proyecto
+- cd proyecto_back
 
 ## Instalar Dependencias
 - composer install
@@ -93,6 +95,11 @@ DELETE /api/students/{id}
 
 ## Requisitos Previos
 - Node version mas reciente
+
+## Instalación
+Sigue estos pasos para levantar el proyecto en tu máquina local: 
+### 1. Aceder al proyecto
+- cd proyecto_front
 
 ## Instalar Dependencias
 - npm install

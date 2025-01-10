@@ -105,5 +105,6 @@ Sigue estos pasos para levantar el proyecto en tu máquina local:
 - npm install
 
 ## Levantar el Servidor de vite
-- cambiar el endpoint que esta en config.ts si es que es necesario
+- crear una variable de entorno .env y pon la siguiente variable (VITE_API_BACK=http://localhost:8000/api)
+  o ve defrente a src/config.ts y modifica el endpoint, la url es segun el servidor con el puerto que que se alla montado el laravel
 - npm run dev

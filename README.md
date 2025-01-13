@@ -1,5 +1,5 @@
 # Clonar repositorio
-git clone https://github.com/tu-usuario/tu-proyecto.git
+git clone https://github.com/jeremyramirezp/test_students.git
 
 # Proyecto Laravel 11 
 - api para la gestión de estudiantes
